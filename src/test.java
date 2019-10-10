@@ -2,17 +2,15 @@ import javax.swing.*;
 import java.awt.*;
 
 public class test {
-    public static void main(String[] args){
+    public static void imades(){
     JFrame f = new JFrame(); //creates jframe f
     //        Timer t = new Timer(1000,this);
     Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize(); //this is your screen size
 
-        f.setUndecorated(false); //removes the surrounding border
-
-    ImageIcon image = new ImageIcon("C:\\Users\\vu nguyen\\IdeaProjects\\ForFuture\\src\\fdfe.jpg.jpg"); //imports the image
+    ImageIcon image = new ImageIcon("C:\\Users\\vu nguyen\\Desktop\\New folder\\test\\src\\images\\wallpaper-1901714.jpg"); //imports the image
 
     JLabel lbl = new JLabel(image); //puts the image into a jlabel
-
+        f.validate();
         f.getContentPane().add(lbl); //puts label inside the jframe
 
         f.setSize(image.getIconWidth(), image.getIconHeight()); //gets h and w of image and sets jframe to the size
