@@ -20,6 +20,9 @@
   </component>
   <component name="ProjectId" id="1S1x60fweL7hkqIMCYmnYRiN69u" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\vu nguyen\Desktop\New folder\test\src\images" />
