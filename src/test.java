@@ -20,6 +20,7 @@ public class test {
         f.setLocation(x, y); //sets the location of the jframe
         f.setVisible(true); //makes the jframe visible
         f.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
+
 }
         }
 

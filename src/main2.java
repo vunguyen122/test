@@ -15,13 +15,14 @@ switch (choice){
     case  2:
         test.imades();
         break;
-    case 3:
-        test.imades();
-
-        main.sound();
-
 }
-
-
+    if (choice == 2){
+        System.out.println(" you asdfas?");
+        choice = input.nextInt();
+        if (choice == 1 ){
+            main.sound();
+        }
+    }
+    System.out.println(" now stop");
     }
 }

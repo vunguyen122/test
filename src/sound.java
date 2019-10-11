@@ -1,6 +1,7 @@
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
+import javax.sound.sampled.FloatControl;
 import javax.swing.*;
 import java.io.DataInputStream;
 import java.io.File;
@@ -17,15 +18,17 @@ void playMusic(String musicLocation) {
             Clip clip = AudioSystem.getClip();
             clip.open(audioInput);
              clip.start();
+            clip.loop( 1);
+//            while(clip.isOpen());
+            JOptionPane.showMessageDialog(null,"ee");
 
-            while(clip.isOpen());
-            clip.stop();
-            Thread.sleep(3);        }
+//            clip.stop();
+//            Thread.sleep(3);
+//            clip.stop();
+        }
         else {
             System.out.println("cant find file");
         }
-
-
     } catch (Exception ex) {
         ex.printStackTrace();
     }
