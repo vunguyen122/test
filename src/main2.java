@@ -10,9 +10,13 @@ public class main2 {
 
 switch (choice){
     case 1:
-        main.sound();
+        sound2.sound2();
         break;
     case  2:
+        test.imades();
+        break;
+    case 3:
+        sound2.sound2();
         test.imades();
         break;
 }
