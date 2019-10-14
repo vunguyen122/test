@@ -46,7 +46,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.coundownTest">
+  <component name="RunManager" selected="Application.thungiem">
     <configuration name="coundownTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="coundownTest" />
       <module name="New folder" />
@@ -56,13 +56,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main" />
-      <module name="New folder" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -88,13 +81,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="thungiem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thungiem" />
+      <module name="New folder" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.thungiem" />
         <item itemvalue="Application.coundownTest" />
         <item itemvalue="Application.main2" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.sound2" />
-        <item itemvalue="Application.main" />
       </list>
     </recent_temporary>
   </component>
