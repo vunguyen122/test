@@ -19,8 +19,8 @@ public class imageRedFace {
     int x = (screenSize.width - f.getSize().width) / 2; //These two lines are the dimensions
     int y = (screenSize.height - f.getSize().height) / 2;//of the center of the screen
     f.dispose();
-    f.setLocation(x = 460 , y = 450 ); //sets the location of the jframe
-    f.setLocationRelativeTo(null);
+    f.setLocation(x = 1000 , y = 15 ); //sets the location of the jframe
+//    f.setLocationRelativeTo(null);     unslash this put the picture in the center of the screen
     f.setVisible(true); //makes the jframe visible
     f.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
 
