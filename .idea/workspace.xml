@@ -90,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="coundownTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coundownTest" />
+    <configuration name="kick" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classinpackage.kick" />
       <module name="New folder" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="classinpackage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,10 +113,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.chestScene" />
+        <item itemvalue="Application.kick" />
         <item itemvalue="Application.FinalScene" />
         <item itemvalue="Application.BossScence" />
         <item itemvalue="Application.thungiem" />
-        <item itemvalue="Application.coundownTest" />
       </list>
     </recent_temporary>
   </component>

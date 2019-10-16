@@ -2,6 +2,7 @@ package classinpackage;
 
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
+import javax.sound.sampled.FloatControl;
 import java.io.File;
 
 public class kick {
@@ -13,9 +14,8 @@ public class kick {
         try{
             Clip clip= AudioSystem.getClip();
             clip.open(AudioSystem.getAudioInputStream(Sound));
-            clip.start();
+               clip.start();
             clip.loop(0);             //change loop
-
 
             Thread.sleep(clip.getMicrosecondLength()/500); //time that the program end
 
