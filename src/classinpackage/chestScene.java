@@ -38,7 +38,7 @@ public class chestScene {
         String[] questions = {"1.Interact with those chest", "2.Crying in a corner", "3.Kick on those chests"};
         Scanner input = new Scanner(System.in);
         boolean invalid = true;
-
+        System.out.print("\n");
         System.out.println(questions[0]);
         System.out.println(questions[1]);
         System.out.println(questions[2]);
@@ -57,6 +57,7 @@ public class chestScene {
                 break;
             } else if (choice == 3) {
                 KickingChest();
+                test1();
                 break;
             }
         }
@@ -64,13 +65,42 @@ public class chestScene {
 
 
     public static void interactChests(){
-        System.out.print("ggh   ");
+        int choice = 5;
+        Scanner input = new Scanner(System.in);
+        int[] chestLabel = {23062, 11001, 92480, 18943, 11901};
+        System.out.print("\nwhich one do you want to open ? \n");
+        System.out.print("please type the number of the chest\n");
+        for (int a = 0; a < chestLabel.length; a++) {
+            {
+                System.out.print("Chest with label " + chestLabel[a] + "\n");
+            }
+        }
+        while (choice != chestLabel[0]+chestLabel[1]+chestLabel[2]+chestLabel[3]+chestLabel[4]) {
+            choice = input.nextInt();
+            if (choice == chestLabel[0]) {
+                Chest23062();
+                break;
+            } else if (choice == chestLabel[1]) {
+                Chest11001();
+                break;
+            } else if (choice == chestLabel[2]) {
+                Chest92480();
+                break;
+            } else if (choice == chestLabel[3]) {
+                Chest18943();
+                break;
+            } else if (choice == chestLabel[4]) {
+                Chest11901();
+                break;
+            }
+            System.out.print("choose again and please choose a valid one \n");
+        }
     }
 
     public static void CryingInACorner(){
         int choice2;
         Scanner input = new Scanner(System.in);
-        System.out.print(" you were too afraid to move, you sit in a corner and cried to died");
+        System.out.print("\n you were too afraid to move, you sit in a corner and cried to died");
         System.out.print("\n try again?");
         System.out.print("\n1.yes\n2.no\n");
         choice2 = input.nextInt();
@@ -93,4 +123,48 @@ public class chestScene {
         }
         System.out.print("you kicked on those chest to see something would react. But nothing happened \n");
     }
-}
+    public static void Chest23062(){
+        String choice;
+        Scanner input = new Scanner(System.in);
+        System.out.print("you opened the chest with label 23062 \n");
+            for (int i = 0 ; i <= 3; i ++){
+        try {
+            TimeUnit.SECONDS.sleep(1);
+        } catch (InterruptedException e) {
+            System.err.format("IOException: %s%n", e);
+            }
+            System.out.println(".");
+            }
+        System.out.print("Ricardo Milos killed you.\nTry again ? \n");
+        System.out.println("\nType yes, or no");
+        choice = input.next();
+        while (choice != "yes"+"no") {
+            System.out.print("choose again and please choose a valid one. \n");
+                choice = input.next();
+                if (choice.equalsIgnoreCase("yes")) {
+                    interactChests();
+                    break;
+                } else if (choice.equalsIgnoreCase("no")) {
+                    System.exit(0);
+                    break;
+                }
+                else
+                    System.out.print("choose again and please choose a valid one. \n");
+        }
+    }
+    public static void Chest11001() {
+        int choice;
+        Scanner input = new Scanner(System.in);
+        System.out.print("you opened the chest with label 11001 ");
+        Date.spookyPaper();
+        }
+    public static void Chest92480(){
+        //
+    }
+    public static void Chest18943(){
+        //
+    }
+    public static void Chest11901(){
+        //
+    }
+    }
