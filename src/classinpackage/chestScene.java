@@ -31,6 +31,8 @@ public class chestScene {
         } catch (InterruptedException e) {
             System.err.format("IOException: %s%n", e);
         }
+
+//        coundownTest.countdown();
         test1();
     }
     public static void test1(){
@@ -98,17 +100,20 @@ public class chestScene {
     }
 
     public static void CryingInACorner(){
-        int choice2;
+        int choice2 =3;
         Scanner input = new Scanner(System.in);
         System.out.print("\n you were too afraid to move, you sit in a corner and cried to died");
         System.out.print("\n try again?");
         System.out.print("\n1.yes\n2.no\n");
-        choice2 = input.nextInt();
-        if (choice2 == 1){
-            test1();
-        }
-        else if (choice2 == 2){
-            System.exit(0);
+        while(choice2 >= 3) {
+            choice2 = input.nextInt();
+            if (choice2 == 1) {
+                test1();
+            } else if (choice2 == 2) {
+                System.exit(0);
+            }
+            else
+                System.out.print("choose again \n");
         }
     }
     public static void KickingChest(){
@@ -124,7 +129,7 @@ public class chestScene {
         System.out.print("you kicked on those chest to see something would react. But nothing happened \n");
     }
     public static void Chest23062(){
-        String choice;
+        String choice =null;
         Scanner input = new Scanner(System.in);
         System.out.print("you opened the chest with label 23062 \n");
             for (int i = 0 ; i <= 3; i ++){
@@ -135,11 +140,9 @@ public class chestScene {
             }
             System.out.println(".");
             }
-        System.out.print("Ricardo Milos killed you.\nTry again ? \n");
+        System.out.print("Ricardo Milos killed you.\nYou died\nTry again ? \n");
         System.out.println("\nType yes, or no");
-        choice = input.next();
         while (choice != "yes"+"no") {
-            System.out.print("choose again and please choose a valid one. \n");
                 choice = input.next();
                 if (choice.equalsIgnoreCase("yes")) {
                     interactChests();
@@ -159,12 +162,66 @@ public class chestScene {
         Date.spookyPaper();
         }
     public static void Chest92480(){
-        //
+        int choice = 2;
+        Scanner input = new Scanner(System.in);
+        System.out.print("you opened chest with label 92480");
+        for (int i = 0 ; i <= 5 ; i++) {
+            try {
+                TimeUnit.SECONDS.sleep(1);
+            } catch (InterruptedException e) {
+                System.err.format("IOException: %s%n", e);
+            }
+            System.out.println(".");
+        }
+        System.out.print("an unidentifiable thing jumped out and killed you\nYou died\nTry again ? \n");
+        while (choice >= 2){
+        System.out.print("\n1 for yes \n2 for no\n");
+        choice = input.nextInt();
+        if (choice == 1){
+            interactChests();
+            break;
+        }
+        else if (choice == 2) {
+            System.exit(0);
+            break;
+        }
+        System.out.print("choose again");
+        }
     }
     public static void Chest18943(){
-        //
+        int choice = 3;
+        Scanner input = new Scanner(System.in);
+        System.out.print("you opened the chest label 18943 \n");
+        for (int i = 0 ; i <= 3; i ++){
+            try {
+                TimeUnit.SECONDS.sleep(1);
+            } catch (InterruptedException e) {
+                System.err.format("IOException: %s%n", e);
+            }
+            System.out.println(".");
+        }
+            System.out.print("\nthe chest ate you\nYou died \nTry again ?\n");
+            while (choice >= 3) {
+                System.out.print("\n1 for yes \n2 for no\n");
+            choice = input.nextInt();
+            if (choice == 1) {
+                interactChests();
+            } else if (choice == 2) {
+                System.exit(0);
+            }
+        }
     }
     public static void Chest11901(){
-        //
+        System.out.print("you opened the chest with label 11901 \n");
+
+        for (int i = 0 ; i <= 3; i ++){
+            try {
+                TimeUnit.SECONDS.sleep(1);
+            } catch (InterruptedException e) {
+                System.err.format("IOException: %s%n", e);
+            }
+            System.out.println(".");
+        }
+        System.out.print("you opened the right one. you a key in the chest, and this is your second key. you need one more to get out of here.");
     }
     }

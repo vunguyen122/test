@@ -50,20 +50,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.chestScene">
-    <configuration name="BossScence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classinpackage.BossScence" />
-      <module name="New folder" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="classinpackage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.coundownTest">
     <configuration name="Date" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="classinpackage.Date" />
       <module name="New folder" />
@@ -103,6 +90,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="coundownTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classinpackage.coundownTest" />
+      <module name="New folder" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classinpackage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="kick" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="classinpackage.kick" />
       <module name="New folder" />
@@ -118,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.coundownTest" />
         <item itemvalue="Application.chestScene" />
         <item itemvalue="Application.Date" />
         <item itemvalue="Application.kick" />
         <item itemvalue="Application.FinalScene" />
-        <item itemvalue="Application.BossScence" />
       </list>
     </recent_temporary>
   </component>
