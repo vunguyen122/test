@@ -5,7 +5,7 @@ import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 
 public class chestScene {
-    public static void main(String args[]) {
+    public static void chestStuff() {
         //        variables and arrays
         int choice = 0;
         boolean invalid = true;
@@ -158,13 +158,13 @@ public class chestScene {
     public static void Chest11001() {
         int choice;
         Scanner input = new Scanner(System.in);
-        System.out.print("you opened the chest with label 11001 ");
+        System.out.print("you opened the chest with label 11001 \n");
         Date.spookyPaper();
         }
     public static void Chest92480(){
         int choice = 2;
         Scanner input = new Scanner(System.in);
-        System.out.print("you opened chest with label 92480");
+        System.out.print("you opened chest with label 92480\n");
         for (int i = 0 ; i <= 5 ; i++) {
             try {
                 TimeUnit.SECONDS.sleep(1);
@@ -200,8 +200,14 @@ public class chestScene {
             }
             System.out.println(".");
         }
-            System.out.print("\nthe chest ate you\nYou died \nTry again ?\n");
-            while (choice >= 3) {
+        gotcha.circleGame();
+        try {
+            TimeUnit.SECONDS.sleep(2);
+        } catch (InterruptedException e) {
+            System.err.format("IOException: %s%n", e);
+        }
+        while (choice >= 3) {
+
                 System.out.print("\n1 for yes \n2 for no\n");
             choice = input.nextInt();
             if (choice == 1) {
@@ -222,6 +228,6 @@ public class chestScene {
             }
             System.out.println(".");
         }
-        System.out.print("you opened the right one. you a key in the chest, and this is your second key. you need one more to get out of here.");
+        System.out.print("you opened the right one. you a key in the chest. you used the key to open the door and move down to the next floor.");
     }
     }

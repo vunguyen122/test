@@ -25,17 +25,17 @@
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vu nguyen\Desktop\New folder\test\src\images" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="classinpackage" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\vu nguyen\Desktop\New folder\test\src\classinpackage" />
       <recent name="C:\Users\vu nguyen\Desktop\New folder\test\src\images\images" />
       <recent name="C:\Users\vu nguyen\Desktop\New folder\test\src\images" />
       <recent name="C:\Users\vu nguyen\Desktop\New folder\test\src" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="classinpackage" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\vu nguyen\Desktop\New folder\test\src\images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -50,7 +50,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.coundownTest">
+  <component name="RunManager" selected="Application.Room1">
     <configuration name="Date" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="classinpackage.Date" />
       <module name="New folder" />
@@ -70,6 +70,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="classinpackage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Room1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="room1.Room1" />
+      <module name="New folder" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="room1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,26 +116,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="kick" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classinpackage.kick" />
-      <module name="New folder" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="classinpackage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.coundownTest" />
-        <item itemvalue="Application.chestScene" />
-        <item itemvalue="Application.Date" />
-        <item itemvalue="Application.kick" />
+        <item itemvalue="Application.Room1" />
         <item itemvalue="Application.FinalScene" />
+        <item itemvalue="Application.chestScene" />
+        <item itemvalue="Application.coundownTest" />
+        <item itemvalue="Application.Date" />
       </list>
     </recent_temporary>
   </component>

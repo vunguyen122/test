@@ -34,7 +34,7 @@ public class FinalScene {
 
                 switch (choice) {
                     case 1:
-//                        chestScene.chestStuff();
+                        chestScene.chestStuff();
                     break;
             }
             }
