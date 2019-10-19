@@ -25,17 +25,17 @@
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\vu nguyen\Desktop\New folder\test\src\images" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="classinpackage" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\vu nguyen\Desktop\New folder\test\src\classinpackage" />
       <recent name="C:\Users\vu nguyen\Desktop\New folder\test\src\images\images" />
       <recent name="C:\Users\vu nguyen\Desktop\New folder\test\src\images" />
       <recent name="C:\Users\vu nguyen\Desktop\New folder\test\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="classinpackage" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vu nguyen\Desktop\New folder\test\src\images" />
     </key>
   </component>
   <component name="RunDashboard">

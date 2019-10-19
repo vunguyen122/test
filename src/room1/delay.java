@@ -10,4 +10,11 @@ public class delay {
         System.err.format("IOException: %s%n", e);
     }
     }
+    public static void delayforPic(){
+        try {
+            TimeUnit.SECONDS.sleep(7);
+        } catch (InterruptedException e) {
+            System.err.format("IOException: %s%n", e);
+        }
+    }
 }
